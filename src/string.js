@@ -1,0 +1,20 @@
+
+export const start = '게임 시작'
+export const restart = '게임 재시작'
+
+export const win1P = '1P가 빙고를 완성했습니다.'
+export const win2P = '2P가 빙고를 완성했습니다.'
+export const tie = '무승부입니다.'
+
+export const vertical1 = '세로/1'
+export const vertical2 = '세로/2'
+export const vertical3 = '세로/3'
+export const vertical4 = '세로/4'
+export const vertical5 = '세로/5'
+export const horizontal1 = '가로/1'
+export const horizontal2 = '가로/2'
+export const horizontal3 = '가로/3'
+export const horizontal4 = '가로/4'
+export const horizontal5 = '가로/5'
+export const diagonal1 = '대각선/1'
+export const diagonal2 = '대각선/2'

@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body {
+  font: 30px roboto;
+  text-align: center;
+  color: #FFF;
+  width: 100%;
+  /* max-width: 30rem; */
+  margin: 0 auto;
+}
+
+.container {
+  margin: auto;
+  display: table;
+}
+.bingoTemplate {
+  background-color: #8CD1C2;
+  padding: 30px;
+  height: 900px;
+  display: table-cell;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+  background: gray;
+}
+
+th, td {
+  font-family: Helvetica;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid white;
+  width: 20%;
+  height: 20%;
+}
+td.unchecked:hover{
+  background-color: gainsboro;
+}
+
+.checked {
+  background-color: red;
+}
+
+button {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5em 0;
+  padding: 1em 0.75em;
+  width: 15%;
+  
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 20px;
+  font-weight: 400;
+  background: #ccc;
+  border-radius: 0.25em;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 2px 4px rgba(#000, 0.4);
+}
+
+.badge{font-size:20px; font-weight: bold; padding: 8px 16px;border-radius: 18px;vertical-align:middle; color: rgba(0, 0, 0, 0.56); margin: 10px;}
+.badge.tag{background:#fafafc;border:1px solid #E8E7EF;}
