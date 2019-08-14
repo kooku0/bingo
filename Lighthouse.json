@@ -3,5 +3,11 @@
     "setup": "npm install",
     "build": "npm run build"
   },
-  "buildLoc": "build"
+  "buildLoc": "build",
+  "threshold": {
+    "Performance": 90,
+    "Accessibility": 80,
+    "Best Practices": 20,
+    "SEO": 95
+  }
 }
