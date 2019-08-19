@@ -1,6 +1,6 @@
 # Bingo
 
-Bingo Game
+Bingo Game 
 
 ## **구현 상세**
 
